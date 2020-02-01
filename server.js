@@ -21,7 +21,6 @@ var server = http.createServer(function (request, response) {
     var query = parsedUrl.query
     var method = request.method
 
-
     /* 服务器启动 */
 
     console.log('总路径为:' + pathWithQuery)
