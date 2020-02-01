@@ -1,0 +1,18 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.demo{
+    font-size: 34px;
+    color: cadetblue;
+    font-family: Kai;
+    margin-bottom: 20px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
