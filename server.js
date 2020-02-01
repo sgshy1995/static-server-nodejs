@@ -37,6 +37,8 @@ var server = http.createServer(function (request, response) {
         '.jpg': 'image/jpg',
         '.png': 'image/png',
         '.jpeg': 'image/jpeg',
+        '.gif': 'image/gif',
+        '.mp3': 'audio/mp3'
     }
     response.statusCode = 200
     response.setHeader('Content-Type', `${pathStyle[suffix] || 'text/html'};charset=utf-8`)
